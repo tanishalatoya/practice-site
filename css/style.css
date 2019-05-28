@@ -1,0 +1,84 @@
+
+/*The properties for the html selector is the same for all of the pages associated with this style sheet.*/
+html {
+	background: linear-gradient(-270deg, #f5ffff, #6dd7fd);
+	font-family: 'montserrat', sans-serif;
+	height: auto;
+	padding: 0 200px;
+	width: 1200px;
+}
+
+/*The selectors and their respective properties below are specific to the index.html page only.*/
+#header {
+	height: 175px;
+	padding-top: 20px;
+
+}
+
+#header, #nav, #short-poem, #image, #footer {
+	margin: auto;
+}
+
+h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 72px;
+	text-align: center;
+	border-top: 10px double #2f6d6d;
+	border-bottom: 10px double #2f6d6d;
+}
+
+#nav {
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0px 30px;
+}
+
+nav ul li a {
+	color: #2f6d6d;
+	text-decoration: none;
+}
+
+.text {
+	line-height: 30px;
+}
+
+#short-poem {
+	font-size: 20px;
+	height: 100px;
+	/*line-height: 30px;*/
+	text-align: center;
+}
+
+img {
+	float: right;
+}
+
+/*End of selectors specific to index.html page.*/
+
+/*The properties for the footer selector are the same for all pages associated with this stylesheet.*/
+#footer {	
+	clear: both;
+	display: flex;
+	height: 10px;
+	justify-content: center;
+	padding: 50px 0px;
+}
+
+#footer ul li {
+	clear: both;
+	display: inline-block;
+	padding: 0px 30px;
+}
+
+/*The following selectors and their properties apply to all pages associated with this stylesheet excluding the index.html page.*/
+
+
+
+h2, h3 {
+	font-family: 'Libre Baskerville', serif;
+}
+
